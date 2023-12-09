@@ -1,17 +1,23 @@
 
-import {useEffect,useContext, useState} from "react"
+import {useEffect,useContext, useState, ReactNode} from "react"
 
 import { ModeContext } from "../../App"
 import { Navleft } from "../nav/navleft/navleft"
 import { NavTop } from "../nav/navtop/navtop"
+import "./main.css"
 
-export const Main:React.FC = ()=>{
-    
-    const {mode,toggleMode} = useContext(ModeContext)
+export const Main:React.FC<{children:ReactNode}> = ({children})=>{
 
-    return <div style={{width:"100%",height:"100%"}} onClick={toggleMode}>
+    return <div className="main-container">
         <Navleft/>
-        <NavTop/>
+        <div className="main-divide-LR">
+            <NavTop/>
+            <div className="main-frame-contents">
+                <div className="main-frame-contents-in">
+                        {children}
+                </div>
+            </div>
+        </div>
     </div>
 }
 

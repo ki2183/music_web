@@ -1,0 +1,45 @@
+:root{
+    --grid-max-content-xsmall: 144px;
+    --grid-column-gap-xsmall: 10px;
+    --grid-row-gap-xsmall: 24px;
+    --grid-small: 4;
+    --grid-column-gap-small: 20px;
+    --grid-row-gap-small: 24px;
+    --grid-medium: 5;
+    --grid-column-gap-medium: 20px;
+    --grid-row-gap-medium: 24px;
+    --grid-large: 6;
+    --grid-column-gap-large: 20px;
+    --grid-row-gap-large: 24px;
+    --grid-xlarge: 6;
+    --grid-column-gap-xlarge: 20px;
+    --grid-row-gap-xlarge: 24px;
+    --grid-type: G;
+    --grid-rows: 5;
+    --standard-lockup-shadow-offset: 15px;
+}
+.rmd-container{
+    width: 98%;
+    padding: 0.5% 1% 1% 1%;
+    height: 21rem;
+    background-color: wheat;
+    margin-top: 1rem;
+}.rmd-title{
+    width: 50%;
+    height: 2rem;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}.rmd-content-ul {
+    width: 100%;
+    height: 18rem;
+    /* border: 1px solid rgb(89, 0, 255); */
+    display: grid;
+    /* grid-template-columns: repeat(5,max-content); */
+    grid-auto-rows: 100%;
+    grid-auto-columns: 250px;
+    grid-auto-flow: column;
+  }.rmd-content-li{
+    border: 1px solid black;
+    margin-left: 5px;
+}

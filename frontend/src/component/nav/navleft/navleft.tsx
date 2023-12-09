@@ -1,12 +1,14 @@
+import { lightmode } from "../../../interface/mode"
 import "./navleft.css"
-
+import { ModeContext } from "../../../App"
+import { useContext } from "react"
 interface ListProps{
     icon:string,
     title:string 
 }
 
 export const Navleft:React.FC = ()=>{
-
+    const {mode, toggleMode} = useContext(ModeContext)
     const list_arr:ListProps[] = [
         {
             icon:"play_circle",
@@ -37,16 +39,15 @@ export const Navleft:React.FC = ()=>{
                             <span>{item.title}</span>
                         </div>
                     ))}
-                {/* 
-                <div className="navleft-mycontents">
-                <span className="material-symbols-outlined mycontents-icon">play_circle</span>
-                    <span>지금 듣기</span>
-                </div>
-                <div className="navleft-mycontents">
-                <span className="material-symbols-outlined mycontents-icon">view_cozy</span>
-                    <span>재생 목록</span>
-                </div> */}
             </div>
+        </div>
+        <div className="navleft-top" style={{border:0,paddingTop:1}}>
+        <div className="navleft-contents contentsbox">
+                    <div className="navleft-mycontents" onClick={toggleMode}>
+                    <span className="material-symbols-outlined mycontents-icon">{mode.g_icon}</span>
+                        <span>{mode.g_icon_text}</span>
+                    </div>
+        </div>
         </div>
     </div>
 }

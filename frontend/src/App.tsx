@@ -5,6 +5,7 @@ import { Main } from './component/main/main';
 import { Mode, darkmode, lightmode } from './interface/mode';
 import { useMode } from './props/useMode';
 import { Globalthis } from './style/globalStyle';
+import { MainPage } from './component/Page/mainPage';
 
 interface ContextProps{
   mode:Mode,
@@ -25,8 +26,8 @@ function App() {
     <ModeContext.Provider value={{mode,toggleMode}}>
       <Globalthis mode={mode === lightmode ? lightmode:darkmode}/>
         <Routes> 
-          <Route path="/" element={<Main/>}/>
-          <Route path="/test" element={<Main/>}/>
+          <Route path="/" element={<MainPage/>}/>
+          
         </Routes>
       </ModeContext.Provider>
   );

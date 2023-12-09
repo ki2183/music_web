@@ -8,10 +8,7 @@ export const NavTop:React.FC = ()=>{
 
 
     return <div className='container-nav-top'>
-        <div className='null-nav'/>
         <div className='main-nav-top'>
-        <div className="pink blush" />
-          <div className="blue blush" />
             <div className='login-button'>
                 <span ref={spanRef}>로그인</span>
             </div>
