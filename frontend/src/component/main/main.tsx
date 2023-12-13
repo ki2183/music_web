@@ -13,9 +13,9 @@ export const Main:React.FC<{children:ReactNode}> = ({children})=>{
         <div className="main-divide-LR">
             <NavTop/>
             <div className="main-frame-contents">
-                <div className="main-frame-contents-in">
+                {/* <div className="main-frame-contents-in"> */}
                         {children}
-                </div>
+                {/* </div> */}
             </div>
         </div>
     </div>

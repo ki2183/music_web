@@ -3,11 +3,12 @@
     --search-f-c:rgb(122, 122, 122);
 }
 .container-navleft{
-    width: 16rem;
+    width: 256px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.055);
     border-right: 1px solid var(--bd);
     z-index: 5;
+    box-sizing: border-box;
 }
 .navleft-top{
     width: 80%;

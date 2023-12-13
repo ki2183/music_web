@@ -1,9 +1,9 @@
 import { Main } from "../main/main"
 import "./mainPage.css"
-import { RecommendContents } from "../main/mainContents/recommendContents"
+import { MusicContents } from "../main/mainContents/musiccontents/musicContents"
 
 export const MainPage:React.FC = ()=>{
     return <Main>
-        <RecommendContents/>
+        <MusicContents/>
     </Main>
 }
