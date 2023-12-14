@@ -1,0 +1,43 @@
+{
+    "data": [
+      {
+        "link": "./imgfolder/deserthell.png",
+        "title": "사헬지대",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/kerningCity.png",
+        "title": "커닝시티",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/ruins.png",
+        "title": "아브락사스 유적",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/magatia.png",
+        "title": "마가티아",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/critias.png",
+        "title": "크리티아스",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/reverse.png",
+        "title": "리버스 시티",
+        "editer": "메이플스토리"
+      },{
+        "link": "./imgfolder/nightmareclocktower.png",
+        "title": "악몽의 시계탑",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/waterfog.png",
+        "title": "물안개 폭포",
+        "editer": "메이플스토리"
+      }
+    ]
+}

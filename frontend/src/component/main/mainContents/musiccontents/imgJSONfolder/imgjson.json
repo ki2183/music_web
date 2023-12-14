@@ -1,0 +1,39 @@
+{
+    "data": [
+      {
+        "link": "./imgfolder/lis.png",
+        "title": "리스항구",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/henesis.png",
+        "title": "헤네시스",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/beach.png",
+        "title": "플로리나 비치",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/edelshutain.png",
+        "title": "에델슈타인",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/aquaload.png",
+        "title": "아쿠아로드",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/perion.png",
+        "title": "페리온",
+        "editer": "메이플스토리"
+      },
+      {
+        "link": "./imgfolder/ariant.png",
+        "title": "아리안트",
+        "editer": "메이플스토리"
+      }
+    ]
+}
